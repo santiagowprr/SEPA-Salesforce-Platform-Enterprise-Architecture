@@ -1,13 +1,21 @@
 {
   "packageDirectories": [
     {
+      "versionName": "ver 1.1",
+      "versionNumber": "1.1.0.NEXT",
       "path": "source/formulaforce",
-      "default": true
+      "default": true,
+      "package": "formulaforceapp",
+      "versionDescription": "FormmulaForce App",
+      "ancestorVersion": "HIGHEST"
     }
   ],
   "name": "formulaforce",
   "namespace": "fforcekw",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "62.0"
-  
+  "sourceApiVersion": "56.0",
+  "packageAliases": {
+    "formulaforceapp": "0HogL0000000Dy9SAE",
+    "formulaforceapp@0.1.0-1": "04tgL0000002ZjFQAU"
+  }
 }
